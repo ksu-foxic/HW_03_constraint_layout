@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:padding="@dimen/common_spacing"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <ImageView
         android:id="@+id/avatar"
@@ -70,7 +70,7 @@
         tools:text="@sample/posts.json/data/content" />
 
     <ImageButton
-        android:id="@+id/favorite"
+        android:id="@+id/like"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -85,8 +85,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="0dp"
-        app:layout_constraintBottom_toBottomOf="@id/favorite"
-        app:layout_constraintStart_toEndOf="@id/favorite"
+        app:layout_constraintBottom_toBottomOf="@id/like"
+        app:layout_constraintStart_toEndOf="@id/like"
         app:layout_constraintTop_toBottomOf="@id/barrier2"
         tools:text="10" />
 
