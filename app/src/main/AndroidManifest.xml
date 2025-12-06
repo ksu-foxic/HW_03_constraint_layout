@@ -13,8 +13,9 @@
         android:theme="@style/Theme.NMedia_practice">
         <activity
             android:name=".activity.MainActivity"
-            android:exported="true">
             android:windowSoftInputMode="adjustPan"
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
